@@ -1,0 +1,17 @@
+#form{
+    align-items: center;
+    width: 800px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 35px;
+    border: 0px;
+    box-shadow: 5px 5px 15px rgb(213, 137, 124);
+}
+
+#contenedor{
+    background-color: rgba(90, 168, 168, 0.198);
+    align-items: center;
+}

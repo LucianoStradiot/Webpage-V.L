@@ -1,0 +1,26 @@
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+#spartan{
+  font-family: 'spartan';
+  color:rgb(90, 168, 168)
+}
+#spartan2{
+  font-family: 'spartan2';
+  font-size: 18px;
+  color:rgb(90, 168, 168)
+}
+
+@font-face{
+  font-family: 'spartan';
+  src: url(/Tipografias/League_spartan/static/LeagueSpartan-SemiBold.ttf);
+}
+@font-face{
+  font-family: 'spartan2';
+  src: url(/Tipografias/Baskerville/LibreBaskerville-Bold.ttf);
+}

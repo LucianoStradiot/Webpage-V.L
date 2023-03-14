@@ -1,0 +1,19 @@
+#container{
+    background-color: rgb(255, 255, 255);
+}
+footer{
+    color: rgb(90, 168, 168);
+    padding: 20px;
+    font-family: 'baskerville';
+    font-size: 15px; 
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 70px;
+    box-shadow: 5px 5px 20px rgb(90, 168, 168);
+}
+
+@font-face{
+    font-family: 'baskerville';
+    src: url(/Tipografias/Baskerville/LibreBaskerville-Bold.ttf);
+  }

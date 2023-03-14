@@ -1,0 +1,55 @@
+#icononav{
+    width: 25px;
+    height: 25px;
+}
+
+.logo{
+  
+   display: flex;
+   width: auto;
+   height: 200px;
+}
+nav{
+    background-color: rgba(90, 168, 168, 0.198);
+    box-shadow: 5px 5px 20px rgb(90, 168, 168);
+}
+
+#spartan{
+    display: flex;
+    margin-right: 10px;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+.barraNav{
+    margin-left: 100px;
+    position: relative;
+}
+
+
+.btnLogin{
+    border-color: #21252900;
+    padding: 0;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin-left: 120px;
+    right: 30px;
+    position: absolute; 
+    font-family: 'spartan';
+    font-size: 23px;
+    background: rgb(90, 168, 168);
+}
+
+
+@media(min-width: 1060px){
+    .navbar-toggler{
+        color:rgb(90, 168, 168);
+    }
+    }
+    @media(max-width: 700px){
+        .logo{
+            width: auto;
+            height: 100px;
+        }
+        }
